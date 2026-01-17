@@ -1,0 +1,10 @@
+i have got two csv of the database one of movie andanother of crew.
+there are multiple columns so i have to filter the columns which helps the model for content based recommendation and drop the useless columns.
+aftr filtering i have converted all the keywords to list .
+I have taken the top three cast to a list and the filtered only the director from  the crew.
+After filtering i have created tags for the movies by combining th e genres,plot cast and crew.
+I ahve converted the movies into vectors.
+After that i have use the cosine_similarity to find the similarity between the movies and find the distance between the movies.
+To find the top recommendation i have filtered the top 5 movies for thr best recommendation.
+after that i hav dumped the model.
+I have used streamlit to 
